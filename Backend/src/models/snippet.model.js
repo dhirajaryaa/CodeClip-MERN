@@ -29,7 +29,7 @@ const snippetSchema = new Schema(
     language: [
       {
         type: Schema.Types.ObjectId,
-        ref: 'language',
+        ref: 'Language',
         required: true,
       },
     ],
