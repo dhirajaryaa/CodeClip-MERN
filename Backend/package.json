@@ -1,11 +1,19 @@
 {
-  "name": "backend",
+  "name": "codeclip-backend",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "src/index.js",
+  "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "nodemon src/index.js"
   },
-  "keywords": [],
+  "keywords": [
+    "express",
+    "mongodb",
+    "mongoose",
+    "restful API",
+    "nodejs",
+    "javascript"
+  ],
   "author": "",
   "license": "ISC",
   "description": "",
