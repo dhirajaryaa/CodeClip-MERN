@@ -16,7 +16,7 @@ const snippetSchema = new Schema(
     tags: [
       {
         type: Schema.Types.ObjectId,
-        ref: 'tags',
+        ref: 'Tag',
         index: true,
       },
     ],
